@@ -1,0 +1,18 @@
+jenkins:
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin123"
+        - id: "devops"
+          password: "devops123"
+        - id: "developer"
+          password: "dev123"
+        - id: "readonly"
+          password: "readonly123"
+
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+

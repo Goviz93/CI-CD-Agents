@@ -1,0 +1,12 @@
+workflow-aggregator              # Core plugin for declarative pipelines.
+pipeline-stage-view              # Visualize pipeline stages.
+git                              # Git integration.
+ssh-agent                        # Inject SSH credentials into builds.
+credentials                      # Store and manage credentials in Jenkins.
+credentials-binding              # Bind secrets (e.g., AWS keys) into builds.
+matrix-auth                      # Fine-grained access control.
+blueocean                        # Optional: modern UI for pipelines.
+cloudbees-folder                 # Allow folder-level organization in Jenkins.
+ws-cleanup                       # Clean up workspace before/after builds.
+configuration-as-code            # Jenkins Configuration as Code JCasC.
+
